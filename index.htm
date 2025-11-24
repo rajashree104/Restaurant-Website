@@ -1,43 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Resturant</title>
 </head>
+
 <body>
-   <header>
-    <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
-    <nav class="navbar">
-        <a class="active" href="#home">Home</a>
-        <a href="#dishes">Dishes</a>
-        <a href="#about">About</a>
-        <a href="#menu">Menu</a>
-        <a href="#review">Review</a>
-        <a href="#order">Order</a>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
 
-    </nav>
-    <div class="icons">
-        <i class="fas fa-bars" id="menu-bars"></i>
-        <i class="fas fa-search" id="search-icon"></i>
-      <a href="#" class="fas fa-heart"></a>
-      <a href="#" class="fas fa-shopping-cart"></a>
-    </div>
-   </header>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
 
-   <form action="" id="search-form">
-<input type="search" placeholder="search here...." name="" id="search-box">
-<label for="search-box" class="fas fa-search"></label>
-<i class="fas fa-times" id="close"></i>
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here...." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
 
-   </form>
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dishes</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores unde nemo
+                            praesentium eaque expedita fugit fugiat, soluta libero. Facere?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./image/home-img-2.jpg" alt="">
+                    </div>
+                </div>
 
 
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dishes</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores unde nemo
+                            praesentium eaque expedita fugit fugiat, soluta libero. Facere?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./image/home-img-2.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dishes</span>
+                        <h3>fired chiken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores unde nemo
+                            praesentium eaque expedita fugit fugiat, soluta libero. Facere?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./image/home-img-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="./script.js"></script>
+
 </body>
+
 </html>
